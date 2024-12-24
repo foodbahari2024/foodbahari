@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ফুড বাহারী - সুস্বাদু এবং বৈচিত্র্যময় খাবারের জন্য আপনার নির্ভরযোগ্য জায়গা।">
+    <title>ফুড বাহারী | সুস্বাদু খাবারের দুনিয়া</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #ff7043;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('food-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 2.5em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card h4 {
+            margin: 15px 0;
+        }
+        .card p {
+            padding: 0 10px 15px;
+        }
+        footer {
+            background-color: #ff5722;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ফুড বাহারী</h1>
+        <p>সুস্বাদু এবং বৈচিত্র্যময় খাবারের এক অনন্য সংগ্রহ</p>
+    </header>
+    <nav>
+        <a href="#menu">মেনু</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+    <section class="hero">
+        <h2>আপনার প্রিয় খাবার এখন এক ক্লিক দূরে</h2>
+    </section>
+    <section class="content">
+        <h3>আমাদের জনপ্রিয় খাবার</h3>
+        <div class="grid">
+            <div class="card">
+                <img src="biryani.jpg" alt="বিরিয়ানি">
+                <h4>বিরিয়ানি</h4>
+                <p>মসলাদার, সুগন্ধী এবং অত্যন্ত সুস্বাদু।</p>
+            </div>
+            <div class="card">
+                <img src="pizza.jpg" alt="পিজ্জা">
+                <h4>পিজ্জা</h4>
+                <p>আপনার পছন্দের টপিংস সহ সেরা পিজ্জা।</p>
+            </div>
+            <div class="card">
+                <img src="dessert.jpg" alt="ডেসার্ট">
+                <h4>ডেসার্ট</h4>
+                <p>মিষ্টি এবং হৃদয়গ্রাহী মেনু।</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; ২০২৪ ফুড বাহারী। সকল অধিকার সংরক্ষিত।</p>
+    </footer>
+</body>
+</html>
